@@ -19,7 +19,7 @@ function App() {
       <ShareCountB />
       <ShareCountC />
     </div>
-  )
-}
+  );
+};
 
 export default App

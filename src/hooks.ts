@@ -4,7 +4,7 @@ import { createModel } from 'hox';
 // 非共享状态
 export const useCounter = () => {
   const [count, setCount] = useState(0);
-  const decrement = () => setCount(prev => prev + 1);
+  const decrement = () => setCount(prev => prev - 1);
   const increment = () => setCount(prev => prev + 1);
   
   return {
